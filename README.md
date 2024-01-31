@@ -7,6 +7,8 @@ Network (i.e. PCAPs, DNS)
 ---
 - [CICIDS2017](https://www.kaggle.com/datasets/cicdataset/cicids2017/data)
     - Paper: https://www.scitepress.org/papers/2018/66398/66398.pdf
+    - CICIDS2017 dataset contains benign and the most up-to-date common attacks, which resembles the true real-world data (PCAPs)
+    - Included the most common attacks based on the 2016 McAfee report, such as Web-based, Brute force, DoS, DDoS, Infiltration, Heart-bleed, Bot, and Scan covered in this dataset.
 - 
 - 
 - [DARPA 1999](https://www.ll.mit.edu/r-d/datasets/1999-darpa-intrusion-detection-evaluation-dataset)
