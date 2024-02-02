@@ -22,10 +22,12 @@ Network (i.e. PCAPs, DNS)
     - Paper: https://www.mdpi.com/2076-3417/11/17/7868#sec4dot3-applsci-11-07868
     - HIKARI-2021 dataset contains encrypted synthetic attacks and benign traffic, with fully labelled payloads
     - Conforms to content requirements which focus on the produced dataset and the process requirement which focus on generation methodology
+- [Malware-traffic-analysis](https://www.malware-traffic-analysis.net/)
+    - A source for packet capture (pcap) files and malware samples
 - [DARPA 1999](https://www.ll.mit.edu/r-d/datasets/1999-darpa-intrusion-detection-evaluation-dataset)
-    - Really quite dated...
+    - Widely-used collection of known attacks, and consists of system call-based audit data and network data, including full packet capture. (very very very dated)
 
-    
+
 - Indicator of compromise (IOCs) -- Rule/Signature based IDS
     - [**CriticalPathSecurity/Zeek-Intelligence-Feeds**](https://github.com/CriticalPathSecurity/Zeek-Intelligence-Feeds)
         - Intelligence feeds for Zeek's intelligence framework with scheduled updates
