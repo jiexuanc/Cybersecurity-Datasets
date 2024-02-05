@@ -84,8 +84,6 @@ Require Access / Currently unavailable
 - [ADFA IDS Datasets](https://research.unsw.edu.au/projects/adfa-ids-datasets)
 - [UNSW-NB15](https://research.unsw.edu.au/projects/unsw-nb15-dataset)
 - [Four Labeled Datasets to Enable Reproducible Cyber Research](https://www.netresec.com/?page=ACS_MILCOM_2016)
-- [What Supercomputers Say: A Study of Five System Logs](https://www.semanticscholar.org/paper/What-Supercomputers-Say%3A-A-Study-of-Five-System-Oliner-Stearley/01b5c01835a57f63c250b4eed923b7f736707624)
-    - Used in SSADLog, DeepLog, LanoBERT, paper details at this [link](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=3a75529e1b29991107310e531759d6bac5fbf01a)
 - [ISOT Cloud IDS](https://onlineacademiccommunity.uvic.ca/isot/2022/11/25/cloud-security-datasets/)
     - The ISOT Cloud IDS (ISOT CID) dataset consists of over 8Tb data collected in a real cloud environment and includes network traffic at VM and hypervisor levels, **system logs**, performance data (e.g. CPU utilization), and system calls.
 
@@ -136,6 +134,8 @@ Interesting stuff
 - Combatting threat alert via construction of dependency graph and finding the most anomalous subgraph
     - Anomality score is not based on a single event, rather based on the whole graph
     
+[What Supercomputers Say: A Study of Five System Logs](https://www.semanticscholar.org/paper/What-Supercomputers-Say%3A-A-Study-of-Five-System-Oliner-Stearley/01b5c01835a57f63c250b4eed923b7f736707624)
+- Used in SSADLog, DeepLog, LanoBERT, paper details at this [link](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=3a75529e1b29991107310e531759d6bac5fbf01a)
 Looking into alert correlations...
 - [**A New Alert Correlation Model Based On Similarity Approach**](https://ieeexplore.ieee.org/document/8874899) 
 - [An Intrusion Action-Based IDS Alert Correlation Analysis and Prediction Framework](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8862902)
