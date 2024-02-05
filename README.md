@@ -9,6 +9,10 @@ Network (i.e. PCAPs, DNS)
     - Paper: https://www.scitepress.org/papers/2018/66398/66398.pdf
     - CICIDS2017 dataset contains benign and the most up-to-date common attacks, which resembles the true real-world data (PCAPs)
     - Included the most common attacks based on the 2016 McAfee report, such as Web-based, Brute force, DoS, DDoS, Infiltration, Heart-bleed, Bot, and Scan covered in this dataset.
+- [**CSE-CIC-IDS2018 on AWS**](https://www.unb.ca/cic/datasets/ids-2018.html)
+    - Systematic approach to generate diverse and comprehensive benchmark dataset for intrusion detection based on the creation of user profiles which contain abstract representations of events and behaviours seen on the network.
+    - The final dataset includes seven different attack scenarios: Brute-force, Heartbleed, Botnet, DoS, DDoS, Web attacks, and infiltration of the network from inside. 
+    - Recorded the raw data including the network traffic (Pcaps) and event logs (windows and Ubuntu event Logs) per machine.
 - [iTrust Datasets](https://itrust.sutd.edu.sg/itrust-labs_datasets/)
     - Secure Water Treatment (SWaT)
         - 11 days of continuous operation: 7 under normal operation and 4 days with attack scenarios
@@ -81,7 +85,7 @@ Require Access / Currently unavailable
 - [UNSW-NB15](https://research.unsw.edu.au/projects/unsw-nb15-dataset)
 - [Four Labeled Datasets to Enable Reproducible Cyber Research](https://www.netresec.com/?page=ACS_MILCOM_2016)
 - [What Supercomputers Say: A Study of Five System Logs](https://www.semanticscholar.org/paper/What-Supercomputers-Say%3A-A-Study-of-Five-System-Oliner-Stearley/01b5c01835a57f63c250b4eed923b7f736707624)
-    - Used in SSADLog, would be beneficial to know how the logs are labelled (appears to be some alert rules)
+    - Used in SSADLog, DeepLog, LanoBERT, paper details at this [link](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=3a75529e1b29991107310e531759d6bac5fbf01a)
 - [ISOT Cloud IDS](https://onlineacademiccommunity.uvic.ca/isot/2022/11/25/cloud-security-datasets/)
     - The ISOT Cloud IDS (ISOT CID) dataset consists of over 8Tb data collected in a real cloud environment and includes network traffic at VM and hypervisor levels, **system logs**, performance data (e.g. CPU utilization), and system calls.
 
@@ -121,6 +125,9 @@ Interesting stuff
 - Self-supervised framework for log anomaly detection based on BERT, using two novel self-supervised training tasks
 - Despite the name, LogBERT does not leverage NLP capability of BERT, rather it uses the transformer encoder model to handle logs, by parsing them as log keys (tokens)
 - Dataset used: HDFS, BGL and Thunderbird
+
+[Multi-datasource machine learning in intrusion detection](https://www.sciencedirect.com/science/article/abs/pii/S2214212622001168)
+- Supposed to have synthetically generated dataset and source code in [link](https://bit.ly/3rbTbiN)
 
 [NODOZE: Combatting Threat Alert Fatigue with Automated Provenance Triage](https://www.ndss-symposium.org/wp-content/uploads/2019/02/ndss2019_03B-1-3_UlHassan_paper.pdf)
 - Discuss the limitations of existing threat detection softwares
