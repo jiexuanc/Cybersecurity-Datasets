@@ -53,6 +53,7 @@ Host Logs
 
 - [**Unified Host and Network Data Set (LANL 2018)**](https://csr.lanl.gov/data/2017)
     - The host event logs originated from most enterprise computers running the Microsoft Windows operating system on Los Alamos National Laboratory’s (LANL) enterprise network. The network event data originated from many of the internal enterprise routers within the LANL enterprise network.
+    - Does not have any documented red team activities which severely compromises its utility in advanced persistent threat detection, limiting its applicability to the development of baseline model
 
 - [Comprehensive, Multi-Source Cyber-Security Events (LANL 2015)](https://csr.lanl.gov/data/cyber1/)
     - The data sources include Windows-based authentication events from both individual computers and centralized Active Directory domain controller servers; process start and stop events from individual Windows computers; Domain Name Service (DNS) lookups as collected on internal DNS servers; network flow data as collected on at several key router locations; and a set of well-defined red teaming events that present bad behavior within the 58 days.
@@ -118,6 +119,10 @@ Interesting stuff
 - During training phase, queue based eliminating duplication for initial training, then PLHF + Tuning purposed balancing = Fine Tuning Log Messages for fine tuning
 - During operations, same finetuning process is done without initial training (This step is quite mysterious as during operations, log messages wouldn't be labelled)
 - Dataset used: BGL and Thunderbird (Both present in Loghub and labelled), Spirit1G (require access), real-world dataset (Not disclosed)
+
+[End-To-End Anomaly Detection for Identifying Malicious Cyber Behavior through NLP-Based Log Embeddings](https://arxiv.org/pdf/2108.12276.pdf)
+- Uses DARPA OpTC
+
 
 [LogBERT: Log Anomaly Detection via BERT](https://arxiv.org/pdf/2103.04475.pdf)
 - Self-supervised framework for log anomaly detection based on BERT, using two novel self-supervised training tasks
