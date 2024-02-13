@@ -3,8 +3,16 @@ Overview:
 
 Collection of cybersecurity datasets for intrusion detection, separated by the type of data (network, event logs, verbose). Note that there are major overlaps between the type of data and the separation is only done for my sanity. Almost all dataset in "Host Logs" contains network traffic. Network files and verbose logs are plentiful. Host logs not so much...
 
-Network (i.e. PCAPs, DNS)
----
+## Network (i.e. PCAPs, DNS)
+Network datasets are separated into raw PCAPs, features (network flow) extracted from PCAPs and indicators of compromise (IOCs) meant for anomaly detection
+### PCAPs
+- [DARPA 1999](https://www.ll.mit.edu/r-d/datasets/1999-darpa-intrusion-detection-evaluation-dataset)
+    - Widely-used collection of known attacks, and consists of system call-based audit data and network data, including full packet capture.
+- [Malware-traffic-analysis](https://www.malware-traffic-analysis.net/)
+    - A source for packet capture (pcap) files and malware samples
+- [Publicly available PCAP files](https://www.netresec.com/index.ashx?page=PcapFiles)
+    - List of public packet capture (PCAP) repositories, which are freely available on the Internet.
+### Network flow
 - [CICIDS2017](https://www.kaggle.com/datasets/cicdataset/cicids2017/data)
     - Paper: https://www.scitepress.org/papers/2018/66398/66398.pdf
     - CICIDS2017 dataset contains benign and the most up-to-date common attacks, which resembles the true real-world data (PCAPs)
@@ -26,23 +34,16 @@ Network (i.e. PCAPs, DNS)
     - Paper: https://www.mdpi.com/2076-3417/11/17/7868#sec4dot3-applsci-11-07868
     - HIKARI-2021 dataset contains encrypted synthetic attacks and benign traffic, with fully labelled payloads
     - Conforms to content requirements which focus on the produced dataset and the process requirement which focus on generation methodology
-- [Malware-traffic-analysis](https://www.malware-traffic-analysis.net/)
-    - A source for packet capture (pcap) files and malware samples
-- [DARPA 1999](https://www.ll.mit.edu/r-d/datasets/1999-darpa-intrusion-detection-evaluation-dataset)
-    - Widely-used collection of known attacks, and consists of system call-based audit data and network data, including full packet capture. (very very very dated)
+### IOC -- Rule/Signature based IDS
+- [**CriticalPathSecurity/Zeek-Intelligence-Feeds**](https://github.com/CriticalPathSecurity/Zeek-Intelligence-Feeds)
+    - Intelligence feeds for Zeek's intelligence framework with scheduled updates
+- [401trg](https://github.com/401trg/detections)
+- [Zeek_detection_script_collection](https://github.com/mvlnetdev/zeek_detection_script_collection?tab=readme-ov-file)
+    - Collection of bro/zeek detection scripts
+- Snort/Sucrita documentation
 
-
-- Indicator of compromise (IOCs) -- Rule/Signature based IDS
-    - [**CriticalPathSecurity/Zeek-Intelligence-Feeds**](https://github.com/CriticalPathSecurity/Zeek-Intelligence-Feeds)
-        - Intelligence feeds for Zeek's intelligence framework with scheduled updates
-    - [401trg](https://github.com/401trg/detections)
-    - [Zeek_detection_script_collection](https://github.com/mvlnetdev/zeek_detection_script_collection?tab=readme-ov-file)
-        - Collection of bro/zeek detection scripts
-    - Snort/Sucrita documentation
-
-
-Host Logs 
----
+## Host Logs 
+Host logs datasets 
 - [**DARPA OpTC**](https://ieee-dataport.org/open-access/operationally-transparent-cyber-optc)
     - Paper: https://arxiv.org/abs/2103.03080
     - Alternative link for individual logs: https://github.com/FiveDirections/OpTC-data
@@ -51,7 +52,7 @@ Host Logs
         - Evaluation stores event captured during the red team activity period
         - Short contains events that were captured but is missing values
 
-- [**Unified Host and Network Data Set (LANL 2018)**](https://csr.lanl.gov/data/2017)
+- [Unified Host and Network Data Set (LANL 2018)](https://csr.lanl.gov/data/2017)
     - The host event logs originated from most enterprise computers running the Microsoft Windows operating system on Los Alamos National Laboratory’s (LANL) enterprise network. The network event data originated from many of the internal enterprise routers within the LANL enterprise network.
     - Does not have any documented red team activities which severely compromises its utility in advanced persistent threat detection, limiting its applicability to the development of baseline model
 
@@ -65,14 +66,15 @@ Host Logs
 
 - [CloudTrail logs from flaws.cloud](https://summitroute.com/blog/2020/10/09/public_dataset_of_cloudtrail_logs_from_flaws_cloud/)
     - flaws.cloud is an AWS CTF and the logs involved many attackers and type of attacks
+    - Lacks any labelling or documented attacker's activities
 
 - IOCs with EVTF
     - [EVTX-to-MITRE-Attack](https://github.com/mdecrevoisier/EVTX-to-MITRE-Attack)
     - [EVTX-ATTACK-SAMPLES](https://github.com/sbousseaden/EVTX-ATTACK-SAMPLES)
     - [Security-Datasets](https://github.com/OTRF/Security-Datasets)
 
-Verbose
----
+## Verbose
+Refers to unstructured text-based logs 
 - [Loghub](https://github.com/logpai/loghub)
     - Supercomputers (BGL and Thunderbird)
     - Hadoop distributed file system log
@@ -93,7 +95,6 @@ Public dataset collections
 - [AZSecure-data](https://www.azsecure-data.org/other-data.html)
 - [SecRepo](https://www.secrepo.com/)
 - [Real-CyberSecurity-Datasets](https://github.com/gfek/Real-CyberSecurity-Datasets)
-- [Publicly available PCAP files](https://www.netresec.com/index.ashx?page=PcapFiles)
 - [Logs Dataset](https://www.kaggle.com/code/adepvenugopal/logs-dataset/notebook)
     - Contains web server logs 
 - [A Survey of Intrusion Detection Systems Leveraging Host Data](https://dl.acm.org/doi/pdf/10.1145/3344382#page=2&zoom=100,0,589)
