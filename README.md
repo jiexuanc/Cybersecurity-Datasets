@@ -70,9 +70,9 @@ Host logs datasets are separated by the degree of anonymization. Datasets with l
     - Extensive anonymization of dataset
 
 #### IOCs with EVTF
-    - [EVTX-to-MITRE-Attack](https://github.com/mdecrevoisier/EVTX-to-MITRE-Attack)
-    - [EVTX-ATTACK-SAMPLES](https://github.com/sbousseaden/EVTX-ATTACK-SAMPLES)
-    - [Security-Datasets](https://github.com/OTRF/Security-Datasets)
+- [EVTX-to-MITRE-Attack](https://github.com/mdecrevoisier/EVTX-to-MITRE-Attack)
+- [EVTX-ATTACK-SAMPLES](https://github.com/sbousseaden/EVTX-ATTACK-SAMPLES)
+- [Security-Datasets](https://github.com/OTRF/Security-Datasets)
 
 ## Verbose
 Refers to unstructured text-based logs 
