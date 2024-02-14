@@ -119,6 +119,9 @@ Interesting stuff
 - During operations, same finetuning process is done without initial training (This step is quite mysterious as during operations, log messages wouldn't be labelled)
 - Dataset used: BGL and Thunderbird (Both present in Loghub and labelled), Spirit1G (require access), real-world dataset (Not disclosed)
 
+[NeuralLog: Log-based Anomaly Detection Without Log Parsing](https://arxiv.org/pdf/2108.01955.pdf)
+- Use transformers to detect log anomaly, many good preprocessing steps here
+
 [LogBERT: Log Anomaly Detection via BERT](https://arxiv.org/pdf/2103.04475.pdf)
 - Self-supervised framework for log anomaly detection based on BERT, using two novel self-supervised training tasks
 - Despite the name, LogBERT does not leverage NLP capability of BERT, rather it uses the transformer encoder model to handle logs, by parsing them as log keys (tokens)
