@@ -16,6 +16,9 @@ Network datasets are separated into raw PCAPs, features (network flow) extracted
     - A source for packet capture (pcap) files and malware samples
 - [Publicly available PCAP files](https://www.netresec.com/index.ashx?page=PcapFiles)
     - List of public packet capture (PCAP) repositories, which are freely available on the Internet.
+- [**Edge-IIoTset: A New Comprehensive Realistic Cyber Security Dataset of IoT and IIoT Applications for Centralized and Federated Learning**](https://ieeexplore.ieee.org/document/9751703)
+    - Dataset [here](https://www.kaggle.com/datasets/mohamedamineferrag/edgeiiotset-cyber-security-dataset-of-iot-iiot/data)
+    - labelled very good
 #### Network flow
 - [CICIDS2017](https://www.kaggle.com/datasets/cicdataset/cicids2017/data)
     - Paper: https://www.scitepress.org/papers/2018/66398/66398.pdf
@@ -34,6 +37,7 @@ Network datasets are separated into raw PCAPs, features (network flow) extracted
     - Paper: https://www.mdpi.com/2076-3417/11/17/7868#sec4dot3-applsci-11-07868
     - HIKARI-2021 dataset contains encrypted synthetic attacks and benign traffic, with fully labelled payloads
     - Conforms to content requirements which focus on the produced dataset and the process requirement which focus on generation methodology
+
 #### IOC -- Rule/Signature based IDS
 - [**CriticalPathSecurity/Zeek-Intelligence-Feeds**](https://github.com/CriticalPathSecurity/Zeek-Intelligence-Feeds)
     - Intelligence feeds for Zeek's intelligence framework with scheduled updates
@@ -124,6 +128,8 @@ Interesting stuff
 
 [NeuralLog: Log-based Anomaly Detection Without Log Parsing](https://arxiv.org/pdf/2108.01955.pdf)
 - Use transformers to detect log anomaly, many good preprocessing steps here
+- Trying bunch of random BERT as backbone transformer...
+
 [End-To-End Anomaly Detection for Identifying Malicious Cyber Behavior through NLP-Based Log Embeddings](https://arxiv.org/pdf/2108.12276.pdf)
 - Uses DARPA OpTC
 
@@ -149,6 +155,9 @@ Looking into alert correlations...
 - [An Intrusion Action-Based IDS Alert Correlation Analysis and Prediction Framework](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8862902)
 - [Comprehensive Approach to Intrusion Detection Alert Correlation](https://sites.cs.ucsb.edu/~vigna/publications/2004_valeur_vigna_kruegel_kemmerer_TDSC_Correlation.pdf)
 - [Alert Correlation Algorithms: A Survey and Taxonomy](https://arxiv.org/ftp/arxiv/papers/1811/1811.00921.pdf)
+
+[SecBERT: Analyzing reports with BERT-like models](https://essay.utwente.nl/93906/1/Liberato_MA_EEMCS.pdf)
+- Pretraining done on security information (CTI/Wikipedia) rather than generic.
 
 Tools to use
 ---
