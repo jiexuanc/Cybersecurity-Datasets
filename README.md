@@ -123,7 +123,14 @@ Interesting stuff
 - Dataset used: BGL and Thunderbird (Both present in Loghub and labelled), Spirit1G (require access), real-world dataset (Not disclosed)
 
 [NeuralLog: Log-based Anomaly Detection Without Log Parsing](https://arxiv.org/pdf/2108.01955.pdf)
-- Use transformers to detect log anomaly, many good preprocessing steps here
+- Use transformers to detect log anomaly, some preprocessing steps here --> uses the "2 layered" i was thinking about
+
+[Log-based Anomaly Detection with Deep Learning: How Far Are We?](https://arxiv.org/pdf/2202.04301.pdf)
+- Treat this as part 2 of NeuralLog
+
+[Tackling Class Imbalance in Cyber Security Dataset](https://www.researchgate.net/profile/Elias-Bou-Harb/publication/326855205_Tackling_Class_Imbalance_in_Cyber_Security_Datasets/links/5bc9db51a6fdcc03c79422f2/Tackling-Class-Imbalance-in-Cyber-Security-Datasets.pdf)
+- is useful
+
 [End-To-End Anomaly Detection for Identifying Malicious Cyber Behavior through NLP-Based Log Embeddings](https://arxiv.org/pdf/2108.12276.pdf)
 - Uses DARPA OpTC
 
